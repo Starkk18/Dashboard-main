@@ -1,0 +1,331 @@
+<div class="header">
+  <div class="hc1">
+    <div class="title">
+      <h2 class="title-appname">Smartpro.ai</h2>
+    </div>
+    <div class="search-body">
+      <div class="search-bar">
+        <input type="text" placeholder="Search..." id="search-input">
+        <button id="search-btn">
+            <i class="fa fa-search"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="hc2">
+    <div class="hc2-icons">
+      <div class="notification">
+        <i id="bell-icon" class="fa-solid fa-bell fa-xl"></i>
+      </div>
+      <div class="chat">
+        <i class="fa-solid fa-message fa-xl"></i>
+      </div>
+      <div class="person">
+        <i class="fa-solid fa-user fa-xl"></i>
+      </div>
+    </div>
+    <div class="h2-text">
+      <h3>My Account</h3>
+    </div>
+  </div>
+</div>
+<div class="body">
+  <div class="sidepanel">
+    <div class="sp-s1">
+      <div class="sp-s1-r1">
+        <h4>ANALYTICS</h4>
+      </div>
+      <div class="sp-s1-r2">
+        <span id="sp-s1-r2-icon" class="material-symbols-outlined">
+          category
+        </span>
+        <h4 style="color: white;">Get Leads</h4>
+      </div>
+      <div class="sp-s1-r3">
+        <h4 style="color: gray;">X-Ray</h4>
+      </div>
+      <div class="sp-s1-r4">
+        <h4 style="color: gray;">Mercury</h4>
+      </div>
+      <div class="sp-s1-r5">
+        <span id="sp-s1-r2-icon" class="material-symbols-outlined">
+          ink_eraser
+        </span>
+        <h4 style="color: gray;">My  Leads</h4>
+      </div><div class="sp-s1-r6">
+        <span id="sp-s1-r2-icon" class="material-symbols-outlined">
+          <span class="material-symbols-outlined">
+            screen_record
+            </span>
+        </span>
+        <h4 style="color: gray;">Get  Leads</h4>
+      </div><div class="sp-s1-r7">
+        <span id="sp-s1-r2-icon" class="material-symbols-outlined">
+          bolt
+        </span>
+        <h4 style="color: grey;">Integrations</h4>
+      </div>
+    </div>
+    
+    <div class="sp-s2">
+      <div class="sp-s1-r1">
+        <h5>CONTENT</h5>
+      </div>
+      <div class="sp-s2-r2">
+        <span id="sp-s1-r2-icon" class="material-symbols-outlined">
+          ink_eraser
+        </span>
+        <h4 style="color: gray;">My  Account</h4>
+      </div><div class="sp-s2-r3">
+        <span id="sp-s1-r2-icon" class="material-symbols-outlined">
+          <span class="material-symbols-outlined">
+            screen_record
+            </span>
+        </span>
+        <h4 style="color: gray;">Analytics</h4>
+      </div>
+      <div class="sp-s2-r4">
+        <span id="sp-s1-r2-icon" class="material-symbols-outlined">
+          <span class="material-symbols-outlined">
+            outgoing_mail
+            </span>
+        </span>
+        <h4 style="color: grey;">Inbox</h4>
+      </div>
+      <div class="sp-s2-r5">
+        <span id="sp-s1-r2-icon" class="material-symbols-outlined">
+          screen_record
+        </span>
+        <h4 style="color: grey;">My  Automations</h4>
+      </div>
+      <div class="sp-s2-r6">
+        <span id="sp-s1-r2-icon" class="material-symbols-outlined">
+          
+            transition_slide
+            
+        </span>
+        <h4 style="color: grey;">Templates</h4>
+      </div>
+      <div class="sp-s3-r1">
+        <h4>Customization</h4>
+      </div>
+      <div class="sp-s3-r3">
+        <span id="sp-s1-r2-icon" class="material-symbols-outlined">
+           settings
+        </span>
+        <h4 style="color: grey;">Help</h4>
+      </div>
+      <div class="sp-s3-r3">
+        <span id="sp-s1-r2-icon" class="material-symbols-outlined">
+            error 
+        </span>
+        <h4 style="color: grey;">Community</h4>
+      </div>
+
+    </div>
+  </div>
+  <div class="main">
+    <div class="info-section">
+      <h1 class="is-h1">Home</h1>
+      <button id="b2">+ Automation</button>
+    </div>
+    
+   <section class="us">
+    <div class="us-s1">
+      <section class="us1"><h2 class="us1-h1">My Automation Analytics</h2></section>
+      <div class="us2">
+        <h3 id="us2">01/04/2024 - 01/05/2024</h3>
+      </div>
+    </div>
+    <div class="analytic-card">
+      <section class="cards" id="c1">
+        <div class="c1-c1">
+        <p class='ac-c1-1text'>All Time</p>
+        <p class='ac-c1-2text'>{{analytics_cards.all_time}}%</p>
+        <p class='ac-c1-3text'>X-Ray Leads Captured</p>
+        </div>
+        <div class="c1-c2">
+          <i class="fa-solid fa-chart-line fa-2xl"></i>
+        </div>
+      </section>
+      <section class="cards" id="c2">
+        <div class="c2-c1">
+        <div class="c2-c2"></div>
+        <p class='ac-c2-1text'>Sent Emails</p>
+        <p class='ac-c2-2text'>{{analytics_cards.send_emails}}%</p>
+        <p class='ac-c2-3text'>X-Ray Leads Captured</p>
+        </div>
+        <div class="c2-c2">
+          <i class="fa-regular fa-envelope-open fa-2xl"></i>
+        </div>
+      </section>
+      <section class="cards" id="c3">
+        <div class="c3-c1">
+          <p class='ac-c3-1text'>Open Rate</p>
+        <p class='ac-c3-2text'>{{analytics_cards.open_rate}}%</p>
+        <p class='ac-c3-3text'>X-Ray Leads Captured</p>
+        </div>
+        <div class="c3-c2">
+          <i class="fa-solid fa-store fa-2xl"></i>
+        </div>
+      </section>
+      <section class="cards" id="c4">
+        <div class="c4-c1">
+          <p class='ac-c4-1text'>Click Rate</p>
+        <p class='ac-c4-2text'>{{analytics_cards.click_rate}}%</p>
+        <p class='ac-c4-3text'>X-Ray Leads Captured</p>
+        </div>
+        <div class="c4-c2">
+          <i class="fa-solid fa-chart-column fa-2xl"></i>
+        </div>
+      </section>
+    </div>
+    
+
+   </section>
+   <section class="middle-section">
+    <section class="ms1">
+      <div class="ms-s1">
+        <h4 class="ms-s12-text" style="color:black ;">Connect Email Outreach</h4>
+        <p class="ms-s12-text">Coonect Your Accounts To Our Deliverability  Tools In The</p>
+        <button class="ms-s1-button">Connect Email</button>
+      </div>
+      <div class="ms-s2">
+        <h4 class="ms-s12-text" style="color: black;">Create a New Automation</h4>
+        <p class="ms-s12-text">Use our outreach automation to contact your warm leads from X-Ray</p>
+        <button class="ms-s2-button">Create Automation</button>
+      </div>
+     </section>
+     <section class="ms2">
+      <div class="row1">
+        <h3>Unicorn Inbox</h3>
+        <select name="Status" class="ms2-chk" >
+          <option value="default">All</option>
+          <option value="online">Online</option>
+          <option value="offline">Offline</option>
+        </select>
+      </div>
+      <div class="row2">
+        <input type="checkbox" id="select" name="select" value="true">
+        <label for="select" id="chk-label"> Select all</label><br>
+        <span class="material-symbols-outlined">
+          tune
+          </span>
+          <span class="material-symbols-outlined">
+            more_horiz
+            </span>
+      </div>
+      <div class="row3" *ngFor="let inbox of inbox_list">
+      <div class="r3s1">
+        <div class="r3c1">
+          <h3>{{inbox.name}}</h3>
+          <h6 *ngIf="inbox.status == 'online'; else offline " id="r3c1h6" >{{inbox.status}}</h6>
+          <ng-template #offline>
+            <h6 *ngIf="inbox.status == 'offline' " id="r3c1h7">{{inbox.status}}</h6>
+          </ng-template>
+        </div>
+        <div class="r3c2">
+         <h5>{{inbox.type}}</h5>
+        </div>
+      </div>
+      <div class="r3s2">
+        <p>{{inbox.description}}</p>
+      </div>
+    </div>
+      
+     </section>
+   </section>
+
+   <section class="Activation-steps" >
+   
+    <div class="asc1">
+      <div class="asc1-s1">
+        <h1>Activation Steps</h1>
+        <h5 style="color: gray;">View All</h5>
+      </div>
+      
+      <div class="as-cards" *ngFor="let steps of activation_steps">
+        <div class="as-cards-c1">
+          <i [ngClass]="steps.icon" id="icons"></i>
+        </div>
+        <div class="as-cards-c2">
+          <h4 id="as-cards-c2-text1">{{steps.step_title}}</h4>
+          <p id="as-cards-c2-text2">{{steps.description || steps.action_performed}}</p>
+        </div>
+        <div class="as-cards-c3">
+            <!-- <p>{{steps.datetime | date [ : 'shortTime'] }}<p> -->
+        </div>
+      </div>    
+    </div>
+    
+    <div class="asc2" style="font-family: 'Freeman', sans-serif;">
+      <div class="asc2-s1">
+        <h1>Email Automation </h1>
+        <h5 style="color: gray;">View All</h5>
+      </div>
+      <div class="asc2-s2" >
+        <div class="asc2-s2-c1">
+          <span style="color: blueviolet;" class="material-symbols-outlined">
+            mail
+            </span><span style="font-weight: bold; margin-left: 1%;">Email</span>
+        </div>
+        <div class="asc2-s2-c2">
+          <h5>Subject: Reaching Out</h5>
+        </div>
+        <div class="asc2-s2-c3">
+          <p>Hey(first_name)....</p>
+        </div>
+      </div>
+      <div class="asc2-s2">
+        <div class="asc2-s2-c1">
+          <span style="color: blueviolet;" class="material-symbols-outlined">
+            chat
+            </span><span style="font-weight: bold; margin-left: 1%;">Messages</span>
+        </div>
+        <div class="asc2-s2-c2">
+          <h5>Subject: Reaching Out</h5>
+        </div>
+        <div class="asc2-s2-c3">
+          <p>Hey(first_name)....</p>
+        </div>
+      </div>  
+    </div>
+   </section>
+
+   <div class="X-ray-trigger">
+    <div class="xr-s1">
+      <div class="xr-s1-c1">
+        <h2>X-Ray Trigger </h2>
+        <h5 style="color: grey;">View All</h5>
+      </div>
+    </div>
+      <div class="xr-s2">
+        <input type="checkbox" name="name" id="chk-xr"><label for="
+        chk-xr" id="xr-label-chk">Name</label>
+        <label > X-Ray Status</label>
+        <label> Capture leads from</label>
+        <label>Audience name</label>
+        <label >Actions</label>
+      </div>
+      <div class="xr-s3" *ngFor="let trigger of x_rays_triggers">
+        <input type="checkbox" name="name" id="chk-xr1 "><label for="
+        chk-xr" id="xr1-label-chk">{{trigger.name}}</label>
+        <span id="toogle-on" class="material-symbols-outlined" *ngIf="trigger.status == 'on'; else off " style="color: green;">
+          toggle_on
+          </span>
+        <ng-template #off>
+          <span id="toogle-off" class="material-symbols-outlined" style="color: red;" >
+            toggle_off
+            </span>
+        </ng-template>
+
+        <label id=leads>{{trigger.leads_from}}</label>
+        <label id="aud_name">{{trigger.audience_name}}</label>
+        <span class="material-symbols-outlined">
+          edit
+          </span>
+      </div>
+   </div>
+
+  </div>
+</div>
