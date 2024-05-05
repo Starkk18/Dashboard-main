@@ -6,7 +6,6 @@
     border-radius: 20px;
     
 }
-
 .title-appname {
     font-size: 30px;
     font-weight: bold;
@@ -140,15 +139,16 @@
     justify-content:baseline;
 
 }
+#sp-s1-r2-icon{
+    margin-top: 10%;
+}
 .sidepanel{
     width: 20%;
     border: 2px solid white;
     padding-left: 1%;
 
 }
-#sp-s1-r2-icon{
-    margin-top: 10%;
-}
+
 .sp-s1-r2{
     display: flex;
     justify-content: flex-start;
