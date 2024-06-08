@@ -12,9 +12,11 @@ export class MasterService {
 
   constructor() { }
 
+  getData(){
+    return axios.get(this.API);
+ }
+
   API:string = "http://fy24et02.ifelsecloud.workers.dev/";
 
-  getData(){
-     return axios.get(this.API);
-  }
+  
 }
